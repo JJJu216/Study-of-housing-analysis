@@ -20,14 +20,69 @@
   <h3>📊 互動式報表展示：</h3>
   <iframe title="合併0723" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMjZiYTU1ZDQtMDlmMy00ZWE5LTg3M2ItNWEyMzU5Yzg1OTg1IiwidCI6IjhlODY2MWQyLTY3OTAtNDI2NC05NDIxLTFiODM2NDVjMmVlZCJ9" frameborder="0" allowFullScreen="true"></iframe>
 
-  <h3>📁 資料來源</h3>
-  <ul>
-    <li>實價登錄 - 買賣、租賃：內政部</li>
-    <li>GDP：主計總處 或新聞統計</li>
-    <li>平均薪資：勞動部</li>
-    <li>人口趨勢：國發會</li>
-    <li>歷史房價趨勢：政府公開資料</li>
-  </ul>
+  <h3>🔍 三條主線分析說明</h3>
+  <ol>
+    <li><strong>買 vs. 租（租金回本年限 / Price-to-Rent）</strong><br>
+      ✔ 直接衡量「房價 vs. 現金流收益」<br>
+      ✔ 可與東京、香港、紐約做 benchmark<br>
+      ✔ 對一般人也直觀：「買房要 40 年才能租金回本，合理嗎？」
+    </li>
+    <br>
+    <li><strong>房價 / GDP（或所得）比</strong><br>
+      ✔ 政府與 IMF 都用的負擔指標<br>
+      ✔ 可用熱力圖把「脫鉤最嚴重」縣市標紅<br>
+      ✔ 可拉十年趨勢，看何時開始偏離
+    </li>
+    <br>
+    <li><strong>人口結構／少子化 vs. 房價</strong><br>
+      ✔ 說明「需求端」能否撐住高價<br>
+      ✔ 用散點：人口增減率 vs. 房價漲幅，右下角（人走、價漲）的點 = 高風險區<br>
+      ✔ 也是政策端（囤房稅、移居誘因）常引用指標
+    </li>
+  </ol>
+
+  <h3>📁 資料來源與分析用途</h3>
+  <table border="1" cellspacing="0" cellpadding="8">
+    <thead>
+      <tr style="background-color: #f0f0f0;">
+        <th>資料類型</th>
+        <th>來源</th>
+        <th>分析用途</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>實價登錄 - 買賣</td>
+        <td>內政部</td>
+        <td>每坪單價、總價</td>
+      </tr>
+      <tr>
+        <td>實價登錄 - 租賃</td>
+        <td>內政部</td>
+        <td>每坪租金、總租金</td>
+      </tr>
+      <tr>
+        <td>地區 GDP</td>
+        <td>主計總處 或新聞統計</td>
+        <td>評估房價是否偏離經濟基本面</td>
+      </tr>
+      <tr>
+        <td>平均薪資</td>
+        <td>勞動部</td>
+        <td>計算房價所得比</td>
+      </tr>
+      <tr>
+        <td>人口趨勢</td>
+        <td>國發會</td>
+        <td>分析房市未來需求（少子化）</td>
+      </tr>
+      <tr>
+        <td>歷史房價趨勢</td>
+        <td>政府網站 或公開資料</td>
+        <td>與政策或利率相關聯</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h3>📝 專題步驟</h3>
   <ol>
@@ -39,9 +94,7 @@
   </ol>
 
   <p style="margin-top: 40px;">
-    🔗 <a href="https://app.powerbi.com/view?r=eyJrIjoiMjZiYTU1ZDQtMDlmMy00ZWE5LTg3M2ItNWEyMzU5Yzg1OTg1IiwidCI6IjhlODY2MWQyLTY3OTAtNDI2NC05NDIxLTFiODM2NDVjMmVlZCJ9" target="_blank">返回 GitHub 專題頁面</a>
-
+    🔗 <a href="https://app.powerbi.com/view?r=eyJrIjoiMjZiYTU1ZDQtMDlmMy00ZWE5LTg3M2ItNWEyMzU5Yzg1OTg1IiwidCI6IjhlODY2MWQyLTY3OTAtNDI2NC05NDIxLTFiODM2NDVjMmVlZCJ9" target="_blank">👉 開啟 Power BI 線上報表</a>
   </p>
 </body>
 </html>
-
